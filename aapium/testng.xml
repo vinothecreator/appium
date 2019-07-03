@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNgParametersSuite" parallel="methods">
+    <!-- <parameter name="udid" value="8533534d4f523745"></parameter> -->
+    <test name="TestNgParametersTest">
+        <classes>
+            <class name="com.demoTest.demoApp" />
+        </classes>
+    </test>
+    
+    
+</suite>
+  

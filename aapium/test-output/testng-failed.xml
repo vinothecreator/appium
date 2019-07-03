@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNgParametersSuite]" parallel="methods">
+  <test name="TestNgParametersTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.demoTest.demoApp">
+        <methods>
+          <include name="myFirstTest"/>
+          <include name="setupAppium"/>
+        </methods>
+      </class> <!-- com.demoTest.demoApp -->
+    </classes>
+  </test> <!-- TestNgParametersTest(failed) -->
+</suite> <!-- Failed suite [TestNgParametersSuite] -->
